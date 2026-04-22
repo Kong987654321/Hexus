@@ -164,13 +164,11 @@ svg {
 }
 
 .stone-black {
-    fill: url('#black-gradient');
-    filter: url("#shadow");
+    fill: #1a1a1a;
 }
 
 .stone-white {
-    fill: url('#white-gradient');
-    filter: url("#shadow");
+    fill: #f0ebe4;
 }
 
 /* Decorations on stones: move number, swap label, dot */
@@ -251,21 +249,19 @@ svg {
 /* Styles for red/blue display */
 
 .redblue .black-border {
-    fill: #ff0000;
+    fill: #f22323;
 }
 
 .redblue .white-border {
-    fill: #0000ff;
+    fill: #3b06e8;
 }
 
 .stone-red {
-    fill: url('#red-gradient');
-    filter: url("#shadow2");
+    fill: #f22323;
 }
 
 .stone-blue {
-    fill: url('#blue-gradient');
-    filter: url("#shadow");
+    fill: #3b06e8;
 }
 
 .redblue .white .movelabel, .redblue .white .swaplabel {
@@ -663,4 +659,3 @@ svg {
 .about .codearea {
     margin-left: 40px;
 }
-
