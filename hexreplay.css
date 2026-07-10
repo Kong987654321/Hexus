@@ -249,19 +249,19 @@ svg {
 /* Styles for red/blue display */
 
 .redblue .black-border {
-    fill: #ff1c1f;
+    fill: #e10000;
 }
 
 .redblue .white-border {
-    fill: #3049ff;
+    fill: #2e00e1;
 }
 
 .stone-red {
-    fill: #ff1c1f;
+    fill: #e10000;
 }
 
 .stone-blue {
-    fill: #3049ff;
+    fill: #2e00e1;
 }
 
 .redblue .white .movelabel, .redblue .white .swaplabel {
