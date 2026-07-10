@@ -11,7 +11,7 @@ body {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    background-color: #d0d0c0;
+    background-color: #89e4ff;
 }
 
 #board-panel {
@@ -117,7 +117,7 @@ svg {
 }
 
 .outline {
-    fill: #caa05a;
+    fill: #ffffff;
     stroke: none;
 }
 
@@ -134,7 +134,7 @@ svg {
 }
 
 .cell-bg.shaded {
-    fill: #e8c57f;
+    fill: #ffffff;
 }
 
 .cell:hover .cell-bg {
@@ -249,19 +249,19 @@ svg {
 /* Styles for red/blue display */
 
 .redblue .black-border {
-    fill: #e10000;
+    fill: #ff0000;
 }
 
 .redblue .white-border {
-    fill: #2e00e1;
+    fill: #3400ff;
 }
 
 .stone-red {
-    fill: #e10000;
+    fill: #ff0000;
 }
 
 .stone-blue {
-    fill: #2e00e1;
+    fill: #3400ff;
 }
 
 .redblue .white .movelabel, .redblue .white .swaplabel {
